@@ -2,15 +2,15 @@ sq:
   activerecord:
     attributes:
       spree/address:
-        address1: Address
-        address2: Address (contd.)
-        city: City
-        country: Country
-        firstname: First Name
-        lastname: Last Name
-        phone: Phone
-        state: County
-        zipcode: Post Code
+        address1: Adresa
+        address2: Addresa (vazhdim) 
+        city: Qyteti
+        country: Shteti 
+        firstname: Emri 
+        lastname: Mbiemri
+        phone: Telefoni
+        state: Nenshteti
+        zipcode: Kodi postal
       spree/calculator/tiered_flat_rate:
         preferred_base_amount:
         preferred_tiers:
@@ -20,97 +20,97 @@ sq:
       spree/country:
         iso: ISO
         iso3: ISO3
-        iso_name: ISO Name
-        name: Name
-        numcode: ISO Code
+        iso_name: Emri i ISO-s 
+        name: Emri
+        numcode: Kodi i ISO-s
       spree/credit_card:
         base:
-        cc_type: Type
-        month: Month
+        cc_type: Lloji
+        month: Muaji
         name:
-        number: Number
-        verification_value: Verification Value
-        year: Year
+        number: Numri
+        verification_value: Vlera e Verifikimit
+        year: Viti
       spree/inventory_unit:
-        state: County
+        state: Nenshteti
       spree/line_item:
-        price: Price
-        quantity: Quantity
+        price: Cmimi
+        quantity: Sasia
       spree/option_type:
-        name: Name
-        presentation: Presentation
+        name: Emri
+        presentation: Prezantimi 
       spree/order:
-        checkout_complete: Checkout Complete
-        completed_at: Completed At
+        checkout_complete: Pagesa u krye
+        completed_at: U krye me 
         considered_risky:
-        coupon_code: Coupon Code
-        created_at: Order Date
-        email: Customer E-Mail
-        ip_address: IP Address
-        item_total: Item Total
-        number: Number
-        payment_state: Payment State
-        shipment_state: Shipment State
-        special_instructions: Special Instructions
-        state: County
-        total: Total
+        coupon_code: Kodi i kuponit
+        created_at: Data e porosise
+        email: E-maili i konsumatorit
+        ip_address: IP adresa
+        item_total: Totali i gjerave
+        number: Numri
+        payment_state: Gjendja e pageses 
+        shipment_state: Gjendja e dergeses
+        special_instructions: Udhezime te vecanta 
+        state: Krahina
+        total: Totali
       spree/order/bill_address:
-        address1: Billing address street
-        city: Billing address city
-        firstname: Billing address first name
-        lastname: Billing address last name
-        phone: Billing address phone
-        state: Billing address county
-        zipcode: Billing address post code
+        address1: Adresa e faturimit
+        city: Qyteti i faturimit
+        firstname: Emri 
+        lastname: Mbiemri
+        phone: Telefoni
+        state: Nenshteti
+        zipcode: Kodi postal
       spree/order/ship_address:
-        address1: Shipping address street
-        city: Shipping address city
-        firstname: Shipping address first name
-        lastname: Shipping address last name
-        phone: Shipping address phone
-        state: Shipping address county
-        zipcode: Shipping address post code
+        address1: Adresa e destinacionit te dergeses
+        city: Qyteti i destinacionit te dergeses
+        firstname: Emri i individit ne destinacionin e dergeses 
+        lastname: Mbiemri i indivitit ne destinacionin e dergeses
+        phone: Numri i telefonit te individit ne destinacionin e dergeses 
+        state: Nenshteti i individit ne destinacionin e dergeses
+        zipcode: Kodi postal i destinacionit te dergeses
       spree/payment:
-        amount: Amount
+        amount: Sasia 
       spree/payment_method:
-        name: Name
+        name: Emri
       spree/product:
-        available_on: Available On
-        cost_currency: Cost Currency
-        cost_price: Cost Price
-        description: Description
-        master_price: Master Price
-        name: Name
-        on_hand: On Hand
-        shipping_category: Shipping Category
-        tax_category: Tax Category
+        available_on: Ne dispozion me 
+        cost_currency: Valuta 
+        cost_price: Cmimi
+        description: Pershkrimi 
+        master_price: Cmimi neto
+        name: Emri
+        on_hand: Ne dore 
+        shipping_category: Kategoria e dergeses
+        tax_category: Kategoria e takses
       spree/promotion:
-        advertise: Advertise
-        code: Code
-        description: Description
-        event_name: Event Name
-        expires_at: Expires At
-        name: Name
-        path: Path
-        starts_at: Starts At
-        usage_limit: Usage Limit
+        advertise: Reklamo
+        code: Kodi
+        description: Pershkrimi
+        event_name: Emri i ngjarjes
+        expires_at: Skadon me 
+        name: Emri
+        path: Rruga
+        starts_at: Fillon me
+        usage_limit: Kufiri i perdorimit
       spree/promotion_category:
         name:
       spree/property:
-        name: Name
-        presentation: Presentation
+        name: Emri
+        presentation: Prezantimi
       spree/prototype:
-        name: Name
+        name: Emri
       spree/return_authorization:
-        amount: Amount
+        amount: Sasia
       spree/role:
-        name: Name
+        name: Emri
       spree/state:
-        abbr: Abbreviation
-        name: Name
+        abbr: Shkurtesa
+        name: Emri
       spree/state_change:
-        state_changes:
-        state_from:
+        state_changes: Ndryshimet e gjendjes
+        state_from: 
         state_to:
         timestamp:
         type:
