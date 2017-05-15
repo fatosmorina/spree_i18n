@@ -110,161 +110,167 @@ sq:
         name: Emri
       spree/state_change:
         state_changes: Ndryshimet e gjendjes
-        state_from: 
-        state_to:
-        timestamp:
-        type:
-        updated:
-        user:
+        state_from: Gjendja nga
+        state_to: Gjendja deri me
+        timestamp: Koha
+        type: Lloji
+        updated: Perditesuar
+        user: Perdoruesi
       spree/store:
-        mail_from_address:
-        meta_description:
-        meta_keywords:
-        name:
-        seo_title:
-        url:
+        mail_from_address: adresa_derguese
+        meta_description: pershkrimi shtese
+        meta_keywords: fjalet kyce shtese
+        name: emri
+        seo_title: titulli i seo-s
+        url: url-ja
       spree/tax_category:
-        description: Description
-        name: Name
+        description: Pershkrimi 
+        name: Emri
       spree/tax_rate:
-        amount: Rate
-        included_in_price: Included in Price
-        show_rate_in_label: Show rate in label
+        amount: intervali
+        included_in_price: Perfshire ne cmim
+        show_rate_in_label: Shfaq intervalin ne tikete
       spree/taxon:
-        name: Name
-        permalink: Permalink
-        position: Position
+        name: Emri
+        permalink: Permalink-u
+        position: Pozita
       spree/taxonomy:
-        name: Name
+        name: Emri
       spree/user:
-        email: Email
-        password: Password
-        password_confirmation: Password Confirmation
+        email: Emaili
+        password: Fjalekalimi
+        password_confirmation: Konfirmimi i fjalekalimi
       spree/variant:
-        cost_currency: Cost Currency
-        cost_price: Cost Price
-        depth: Depth
-        height: Height
-        price: Price
+        cost_currency: Valuta e kostos
+        cost_price: Vlera e kostos
+        depth: Thellesia
+        height: Lartesia
+        price: Cmimi
         sku: SKU
-        weight: Weight
-        width: Width
+        weight: Pesha 
+        width: Gjeresia
       spree/zone:
-        description: Description
-        name: Name
+        description: Pershkrimi
+        name: Emri
     errors:
       models:
         spree/calculator/tiered_flat_rate:
           attributes:
             base:
-              keys_should_be_positive_number:
+              keys_should_be_positive_number: identifikuesit duhet te jene numra pozitive
             preferred_tiers:
-              should_be_hash:
+              should_be_hash: duhet te jete hash
         spree/calculator/tiered_percent:
           attributes:
             base:
-              keys_should_be_positive_number:
-              values_should_be_percent:
+              keys_should_be_positive_number: identifikuesit duhet te jene numra pozitive
+              values_should_be_percent: vlerat duhet te jene perqindje
             preferred_tiers:
-              should_be_hash:
+              should_be_hash: duhet te jete hash
         spree/classification:
           attributes:
             taxon_id:
-              already_linked:
+              already_linked: tashme eshte lidhje
         spree/credit_card:
           attributes:
             base:
-              card_expired: Card has expired
-              expiry_invalid:
+              card_expired: Karta ka skaduar
+              expiry_invalid: Data e pasakte e skadimit
         spree/line_item:
           attributes:
             currency:
-              must_match_order_currency:
+              must_match_order_currency: Duhet te perputhet radhitja e valutes
         spree/refund:
           attributes:
             amount:
-              greater_than_allowed:
+              greater_than_allowed: Me e larte se sa qe lejohet
         spree/reimbursement:
           attributes:
             base:
-              return_items_order_id_does_not_match:
+              return_items_order_id_does_not_match: Radhitja e ID-ve te gjerave te rikthyera nuk perputhet
         spree/return_item:
           attributes:
             inventory_unit:
-              other_completed_return_item_exists:
+              other_completed_return_item_exists: Njesia e rikthyer e perfunduar ekziston
             reimbursement:
-              cannot_be_associated_unless_accepted:
+              cannot_be_associated_unless_accepted: Nuk mund te lidhet pa u pranuar
         spree/store:
           attributes:
             base:
-              cannot_destroy_default_store:
+              cannot_destroy_default_store: Nuk mund te fshihet dyqani i nenkuptuar
     models:
       spree/address:
-        one: Address
-        other: Addresses
+        one: Adresa
+        other: Adresat
       spree/country:
-        one: Country
-        other: Countries
+        one: Shteti
+        other: Shtetet
       spree/credit_card:
-        one: Credit Card
-        other: Credit Cards
+        one: Kredit karta
+        other: Kredit kartat
       spree/customer_return:
       spree/inventory_unit:
-        one: Inventory Unit
-        other: Inventory Units
+        one: Njesia e inventarit
+        other: Njesite e inventarit
       spree/line_item:
-        one: Line Item
-        other: Line Items
+        one: Njesia e linjes
+        other: Njesite e linjes
       spree/option_type:
       spree/option_value:
       spree/order:
-        one: Order
+        one: Porosite
         other: Orders
       spree/payment:
-        one: Payment
-        other: Payments
+        one: Pagesa
+        other: Pagesat
       spree/payment_method:
       spree/product:
-        one: Product
-        other: Products
+        one: Produkti
+        other: Produktet
       spree/promotion:
       spree/promotion_category:
       spree/property:
-        one: Property
-        other: Properties
+        one: Karakteristike
+        other: Karakteristikat
       spree/prototype:
-        one: Prototype
-        other: Prototypes
-      spree/refund_reason:
+        one: Prototip
+        other: Prototipet
+      spree/refund_reason: 
+        one: Arsyeja e rimbursimit
+        other: Arsyet e rimbursimit
       spree/reimbursement:
-      spree/reimbursement_type:
+        one: Rimbursimi
+        other: Rimbursimet
+      spree/reimbursement_type: 
+        one: Lloji i rimbursimit
+        other: Llojet e rimbursimit
       spree/return_authorization:
-        one: Return Authorisation
-        other: Return Authorisations
-      spree/return_authorization_reason:
+        one: Rikthe Autorizimin
+        other: Rikthe Autorizimet
+      spree/return_authorization_reason: Rikthe arsyen e autorizimit
       spree/role:
-        one: Roles
-        other: Roles
+        one: Rolet
+        other: Rolet
       spree/shipment:
-        one: Shipment
-        other: Shipments
+        one: Dergesa
+        other: Dergesat
       spree/shipping_category:
-        one: Shipping Category
-        other: Shipping Categories
+        one: Kategoria e dergeses
+        other: Kategorite e dergeses
       spree/shipping_method:
       spree/state:
-        one: County
-        other: Counties
-      spree/state_change:
-      spree/stock_location:
-      spree/stock_movement:
-      spree/stock_transfer:
-      spree/tax_category:
-        one: Tax Category
-        other: Tax Categories
+        one: Shteti
+        other: Shtetet
+      spree/state_change: Ndryshimi i shtetit
+      spree/stock_location: Vendndodhja e aksioneve
+      spree/stock_movement: Levizja e aksioneve
+      spree/stock_transfer: Bartja e aksioneve
+      spree/tax_category: 
+        one: Kategoria e takses
+        other: Kategorite e takses
       spree/tax_rate:
-        one: Tax Rate
-        other: Tax Rates
+        one: Intervali i takses
+        other: Intervalet e takses
       spree/taxon:
         one: Taxon
         other: Taxons
